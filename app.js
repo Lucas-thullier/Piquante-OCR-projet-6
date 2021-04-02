@@ -15,6 +15,7 @@ logger = winston.createLogger({
 });
 
 mongoose.set("useFindAndModify", false);
+mongoose.set("useCreateIndex", true);
 
 const app = express();
 

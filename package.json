@@ -4,7 +4,7 @@
   "description": "backend for OCR project 6",
   "main": "server.js",
   "scripts": {
-    "app": "node app",
+    "app": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
